@@ -5,9 +5,9 @@ void main() {
   bool isStudent = true;
   List<int> scores = [90, 85, 78];
 
-  print('Age: $age');
-  print('Height: $height');
-  print('Name: $name');
-  print('Is Student: $isStudent');
-  print('Scores: $scores');
+  print('Age: $age,${age.runtimeType}');
+  print('Height: $height, ${height.runtimeType}');
+  print('Name: $name, ${name.runtimeType}');
+  print('Is Student: $isStudent, ${isStudent.runtimeType}');
+  print('Scores: $scores, ${scores.runtimeType}');
 }
